@@ -1,0 +1,19 @@
+
+ 
+$aos-distance: 20px;
+@import '~aos/src/sass/aos.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import '../../node_modules/animate.css/animate.css';
+// @import "../../node_modules/bootstrap/scss/functions";
+
+// // Required Bootstrap imports
+// @import "../../node_modules/bootstrap/scss/variables";
+// @import "../../node_modules/bootstrap/scss/maps";
+// @import "../../node_modules/bootstrap/scss/mixins";
+// @import "../../node_modules/bootstrap/scss/root";
+
+@import 'variables';
+@import 'layout';
+@import 'big-layout';
+@import 'small-layout';
+// @import 'table';

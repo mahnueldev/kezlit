@@ -1,0 +1,91 @@
+@import '../../node_modules/bootstrap/scss/mixins';
+@include media-breakpoint-down(lg) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $indigo;
+    color: $white;
+  }
+  .head-l {
+    margin-top: 3rem;
+  }
+  .navbar {
+    background-color: $black;
+    color: $white;
+    box-shadow: 0 3px 2px rgba(39, 39, 54, 0.2);
+    z-index: 10;
+  }
+
+  .nav-boundary a,
+  .nav-boundary a:hover {
+    color: $white;
+  }
+  .header-media {
+    width: 10rem;
+  }
+  .navbar-toggler:focus {
+    outline: none;
+  }
+
+  #subnav {
+    background-color: $gray-300;
+    padding: 0.5rem;
+
+    z-index: 3;
+  }
+
+  #content {
+    margin-top: 2rem;
+  }
+
+  .btn {
+    background-color: $white;
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    box-shadow: none;
+    outline: none;
+  }
+  .offcanvas {
+    background-color: $pink;
+  }
+  .prin:hover {
+    background-color: $blue;
+    color: $white;
+  }
+
+  .navbar-toggler-icon {
+    color: $white;
+  }
+  #submenu-icon {
+    color: $blue;
+  }
+  .sub-nav:hover {
+    color: $gray-300;
+  }
+
+  .footer-container {
+    color: $white;
+    background-color: $blue;
+  }
+  .footer-content p {
+    font-size: 12px;
+  }
+  .footer-media {
+    width: 2rem;
+  }
+}
+
+
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

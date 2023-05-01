@@ -1,0 +1,128 @@
+@import '../../node_modules/bootstrap/scss/mixins';
+@include media-breakpoint-up(lg) {
+  h1 {
+    font-weight: 600;
+    font-size: 30px;
+  }
+  body {
+    background-color: $gray-100;
+  }
+
+  .navbar {
+    background-color: $gray-900;
+    color: $white;
+    box-shadow: 0 3px 2px rgba(21, 21, 22, 0.2);
+  }
+  .nav-boundary {
+    margin-left: 4rem;
+    color: $white;
+  }
+  .nav-boundary a,
+  .nav-boundary a:hover {
+    color: $white;
+  }
+  #subnav {
+    display: none;
+  }
+
+  .btn {
+    background-color: $gray-900;
+    color: $white;
+  }
+  .prin {
+    padding: 0.75rem 3rem;
+  }
+  .prin:hover {
+    background-color: $gray-800;
+    color: $white;
+  }
+  .nav {
+    width: 11rem;
+  }
+  .header-media {
+    margin-right: 5rem;
+  }
+  .boxy {
+    width: 3rem;
+    height: 3rem;
+    .iconify {
+      color: $white;
+    }
+  }
+  .blu {
+    background-color: #3088ff;
+  }
+
+  .pink {
+    background-color: #f8b3b8;
+  }
+
+  .yel {
+    background-color: #6fcf97;
+  }
+
+  .grn {
+    background-color: #f2c94c;
+  }
+  .purp {
+    background-color: #9b51e0;
+  }
+  .cyn {
+    background-color: #62dbe2;
+  }
+
+  .boxy-text {
+    width: 13rem;
+    font-size: 14px;
+  }
+  .navbar-toggler-icon {
+    background-image: none;
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    outline: none;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $gray-900;
+
+    background-color: $white;
+    height: 40rem;
+    .head-l {
+      width: 30rem;
+    }
+    h1 {
+      font-size: 4rem;
+    }
+  }
+.main-style{
+  margin: 10rem 4rem;
+}
+  .image-with-text {
+    width: 24rem;
+    height: 15rem;
+
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  .footer-container {
+    color: $white;
+    background-color: $blue;
+  }
+  .footer-media {
+    width: 2rem;
+  }
+  #accordionId {
+    font-size: 14px;
+  }
+}

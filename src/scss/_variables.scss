@@ -1,0 +1,103 @@
+$blue: #3088FF;
+$pink: #F8B3B8;
+$purple: #6f42c1;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #F2C94C;
+$green: #6FCF97;
+
+$blues: (
+  'blue-100': $blue-100,
+  'blue-200': $blue-200,
+  'blue-300': $blue-300,
+  'blue-400': $blue-400,
+  'blue-500': $blue-500,
+  'blue-600': $blue-600,
+  'blue-700': $blue-700,
+  'blue-800': $blue-800,
+  'blue-900': $blue-900,
+);
+
+$blue-100: tint-color($blue, 80%);
+$blue-200: tint-color($blue, 60%);
+$blue-300: tint-color($blue, 40%);
+$blue-400: tint-color($blue, 20%);
+$blue-500: $blue;
+$blue-600: shade-color($blue, 20%);
+$blue-700: shade-color($blue, 40%);
+$blue-800: shade-color($blue, 60%);
+$blue-900: shade-color($blue, 80%);
+
+$grays: (
+  '100': $gray-100,
+  '200': $gray-200,
+  '300': $gray-300,
+  '400': $gray-400,
+  '500': $gray-500,
+  '600': $gray-600,
+  '700': $gray-700,
+  '800': $gray-800,
+  '900': $gray-900,
+);
+
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #04052e;
+
+$primary: $blue;
+$secondary: $gray-600;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-900;
+
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'success': $success,
+  'info': $info,
+  'warning': $warning,
+  'danger': $danger,
+  'light': $light,
+  'dark': $dark,
+);
+
+
+
+$accordion-bg: $purple;
+$accordion-button-bg: $purple;
+$accordion-button-active-bg: $purple;
+
+
+// .text-primary {
+//  color: $blue;
+// }
+
+// $text-gradient-colors: (
+//   primary: (#007bff, #6c757d),
+//   secondary: (#6c757d, #007bff)
+// );
+
+// .text-gradient {
+//     @include text-gradient-variant(primary);
+//     -webkit-background-clip: text;
+//     -moz-background-clip: text;
+//     -o-background-clip: text;
+//     background-clip: text;
+//     -webkit-text-fill-color: transparent;
+// }
+// $custom-colors:(
+//     "navy-blue": #22007C
+// );
+
+// $theme-colors: map-merge($theme-colors, $custom-colors);
