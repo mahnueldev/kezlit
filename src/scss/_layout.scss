@@ -61,3 +61,32 @@ a {
 .text-pri{
   font-weight: 500;
 }
+.blu {
+  background-color: #3088ff;
+}
+
+.pink {
+  background-color: #f8b3b8;
+}
+
+.yel {
+  background-color: #6fcf97;
+}
+
+.grn {
+  background-color: #f2c94c;
+}
+.purp {
+  background-color: #9b51e0;
+}
+.cyn {
+  background-color: #62dbe2;
+}
+.btn-main {
+  background-color: $gray-800;
+  color: $white;
+}
+.btn-main:hover {
+  background-color: $gray-800;
+  color: $white;
+}

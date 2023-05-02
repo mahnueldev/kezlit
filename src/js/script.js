@@ -1,9 +1,9 @@
 
-// import { landingContent } from './landingContent.js';
+import { customFunctions} from './customFunctions.js';
 
 
 
-// landingContent();
+customFunctions();
 
 
 
